@@ -1,0 +1,52 @@
+a{
+	color: #22BCE0;
+}
+
+body{
+	background: #EEEEEE;
+	font-family: Arial;
+	font-size: 16px;
+}
+/*Acomodamos los elementos del header con float y positionn*/
+header{
+	background: #343B54;
+	color: white;
+	overflow: hidden;
+	padding: .5em;
+	position: relative;
+}
+
+header div{
+	float: left;
+}
+
+header h1{
+	border: 1px solid red;
+	font-size: 1.2em;
+	font-weight: normal;
+	/*margin: 0 70px 0 70px;*/
+}
+/*psition absolut reinicia sus valores de top y left a 0, por defecto hhace referencia al body
+si le ponemos position relative a otra caja tomara como referencia la caja que tienen 
+el relative
+
+position relative: agrega 4 valores (top,left, rigth down) a la caja y empuja o mueve todo */
+header #avatar{
+	margin: .5em .5em 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+header #avatar img{
+	border-radius: 50%;
+	width: 55px;
+}
+
+header #logo img{
+	border-right: 1px solid white;
+	margin-right: .5em;
+	padding-right:.5em;
+	width: 52px;
+}
+
