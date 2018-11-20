@@ -21,10 +21,10 @@ header div{
 }
 
 header h1{
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	font-size: 1.2em;
 	font-weight: normal;
-	/*margin: 0 70px 0 70px;*/
+	margin: 0 70px 0 70px;
 }
 /*psition absolut reinicia sus valores de top y left a 0, por defecto hhace referencia al body
 si le ponemos position relative a otra caja tomara como referencia la caja que tienen 
@@ -50,3 +50,46 @@ header #logo img{
 	width: 52px;
 }
 
+nav{
+	/*text-align: center;*/
+	background: #80BCA3;
+	/*padding: .5em 0;*/
+	position: relative;
+}   
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul #publicar{
+	/*border: 1px solid yellow;*/
+	position:absolute;
+	top: -.4em;
+	right: 0;
+}
+
+nav ul #publicar a{
+	border-radius: .5em;
+	/*border: 1px solid red;*/
+	background: #22BCE0;
+	box-shadow: rgba(0,0,0,.5) 5px 5px 20px;
+	font-style: italic;
+	padding: .8em;
+	text-decoration: none;
+	/*color, desplazamiento en x, desplazamiento en y, difuminacion*/
+	text-shadow: rgba(0,0,0,.5) 2px 2px 5px;
+}
+
+nav ul li{
+	/*border: 1px solid red;*/
+	display: inline-block;
+	/*margin: 0 1em 0 0;*/
+}
+
+nav ul li a{
+	color: white;
+	display: block;
+	padding: .5em .5em;
+}
