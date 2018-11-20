@@ -15,7 +15,7 @@ footer{
 	text-align: center;
 }
 
-footer p:first-child{
+footer p:first-child{  
 	/*border: 1px solid red;*/
 	margin-bottom: 0;
 }
@@ -117,4 +117,77 @@ nav ul li a{
 	color: white;
 	display: block;
 	padding: .5em .5em;
+}
+
+#contenido{
+	margin: 1em;
+}
+
+#contenido .item{
+	background: white;
+	border-bottom: 3px solid #22BCE0;
+	margin-bottom: 2em;
+	min-height: 128px;
+	/*overflow: hidden;*/
+	position: relative;
+}
+
+#contenido .item .autor_item{
+	color: #CCC;
+}
+
+#contenido .item .datos_item{
+	margin: 1em 1em 0 0;
+	text-align: right;
+
+}
+
+#contenido .item .datos_item{
+	color: #AAA;
+}
+
+#contenido .item .datos_item .tag_item{
+	background: #F4502A;
+	border-radius: .5em;
+	color: white;
+	float: left;
+	padding: .2em .5em;
+	text-decoration: none;
+}
+
+#contenido .item #imagen_item{
+	float: left;
+	margin: 0 1em 0 0;
+
+}
+
+#contenido .item #imagen_item img{
+	width: 96px;
+}
+
+#contenido .item .titulo_item{
+	font-size: 1.2em;
+	font-style: italic;
+	padding: 1em 1em 0 0;
+}
+
+#contenido .item .titulo_item a{
+	color: #444;
+	text-decoration: none;
+
+}
+
+#contenido .item .votacion{
+	background: white;
+	border-radius:0 0 .5em .5em;
+	left: 10%;
+	margin: 4px;
+	position: absolute;
+	top: 100%;
+	width:80%;
+}
+
+#contenido .item .votacion .cometarios_item,
+#contenido .item .votacion .guardar_item{
+	float: right;
 }
