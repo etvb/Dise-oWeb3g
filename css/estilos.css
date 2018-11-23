@@ -29,6 +29,7 @@
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
+  text-decoration: none;
   text-transform: none;
   line-height: 1;
 
@@ -39,15 +40,24 @@
 
 .icon-arrow-up:before {
   content: "\e900";
+  color: #0ef51f;
 }
 .icon-arrow-down:before {
   content: "\e901";
+  color: #f50e39;
+
 }
 .icon-pencil2:before {
   content: "\e906";
+  margin: .5em;
+
 }
 .icon-star-full:before {
+	color: #e1e86f;
   content: "\e9d9";
+  margin-right: .4em
+
+
 }
 
 a{
@@ -131,7 +141,7 @@ nav{
 	/*text-align: center;*/
 	background: #80BCA3;
 	box-shadow: rgba(0,0,0,.5)0 0 10px;
-	/*padding: .5em 0;*/
+	padding: 0 6em 0 0;
 	position: relative;
 }   
 
@@ -154,7 +164,7 @@ nav ul #publicar a{
 	background: #22BCE0;
 	box-shadow: rgba(0,0,0,.5) 5px 5px 20px;
 	font-style: italic;
-	padding: .8em;
+	padding: .8em .8em .8em 0;
 	text-decoration: none;
 	/*color, desplazamiento en x, desplazamiento en y, difuminacion*/
 	text-shadow: rgba(0,0,0,.5) 2px 2px 5px;

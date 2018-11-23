@@ -1,0 +1,89 @@
+commit 420fd15fa3c385cdb7787f8fc57e3f3a5e4196aa
+Author: Edgardo Torres <Edgardo.torres@ad.mediaccess.corp>
+Date:   Thu Nov 22 22:03:00 2018 -0600
+
+    resuelvo el amontonamiento de publicar y django
+
+commit 40fd14fe53ac8c37c9d467fd2c2773d3ae5a407f
+Author: Edgardo Torres <Edgardo.torres@ad.mediaccess.corp>
+Date:   Thu Nov 22 21:09:27 2018 -0600
+
+    coloco los iconos
+
+commit d737e0ab1f9427f4cd50ea96a077c4ac0c1368a6
+Author: Edgardo Torres Vanden Bouch <edgardo.torres@hotmail.com>
+Date:   Wed Nov 21 12:40:51 2018 -0600
+
+    archivos de fueentes
+
+commit f4fbc40ee8bea34a2ecb44b244ee548698839962
+Author: Edgardo Torres <Edgardo.torres@ad.mediaccess.corp>
+Date:   Tue Nov 20 21:57:22 2018 -0600
+
+    traigo la letra desde google fonts
+
+commit f5a9c6a7bc4de53a2eae808ae735e4d0d2ce608d
+Author: Edgardo Torres <Edgardo.torres@ad.mediaccess.corp>
+Date:   Tue Nov 20 21:02:25 2018 -0600
+
+    pongo varios article
+
+commit ea4006b5f0629ffbbd754f6fd9a9dae49398673d
+Author: Edgardo Torres Vanden Bouch <edgardo.torres@hotmail.com>
+Date:   Tue Nov 20 11:50:15 2018 -0600
+
+    terminamos los estilos del article
+
+commit 4020dd748b7be5d3805ff94aca8c728568006e3c
+Author: Edgardo Torres Vanden Bouch <edgardo.torres@hotmail.com>
+Date:   Tue Nov 20 06:19:41 2018 -0600
+
+    terminamos los estilos para el footer
+
+commit 7ce3ea2058cc1ef1fa477c9831e74af32f2538b8
+Author: Edgardo Torres Vanden Bouch <edgardo.torres@hotmail.com>
+Date:   Tue Nov 20 05:59:30 2018 -0600
+
+    terminamos los estilos del nav
+
+commit 3b0cd55a6b0b978534fcc6a6c8ddaa17be0aaf1e
+Author: Edgardo Torres Vanden Bouch <edgardo.torres@hotmail.com>
+Date:   Sat Nov 17 20:23:18 2018 -0600
+
+    Terminamos los estilos del header
+
+commit e46575d9ea96c20e607c92ae7a1e975f36a5e69f
+Author: Edgardo Torres Vanden Bouch <edgardo.torres@hotmail.com>
+Date:   Sat Nov 17 14:59:35 2018 -0600
+
+    agrego el mena name decriotion
+
+commit 3025af390d57757b81a0bc5b58650522725f385b
+Author: Edgardo Torres Vanden Bouch <edgardo.torres@hotmail.com>
+Date:   Sat Nov 17 14:36:16 2018 -0600
+
+    colocamos las imagenes y el archivo normalize
+
+commit 98396f1d5959a59a3445bb115da42ad6b99059af
+Author: Edgardo Torres Vanden Bouch <edgardo.torres@hotmail.com>
+Date:   Sat Nov 17 14:30:27 2018 -0600
+
+    enlazamos normalize
+
+commit 40a719482400a7eb404e3962631ce9b46672d607
+Author: Edgardo Torres Vanden Bouch <edgardo.torres@hotmail.com>
+Date:   Sat Nov 17 14:18:32 2018 -0600
+
+    Cambios semanticos en el proyecto
+
+commit d4c354cab12a1f4884782f21f01e5df4774947e0
+Author: Edgardo Torres <Edgardo.torres@ad.mediaccess.corp>
+Date:   Fri Nov 16 15:55:32 2018 -0600
+
+    Ponemos todo el contenido
+
+commit c547fb822143d15dc397711ccebd0dac5a562b64
+Author: Edgardo Torres <Edgardo.torres@ad.mediaccess.corp>
+Date:   Wed Nov 14 08:50:10 2018 -0600
+
+    Archivos base iniciales
