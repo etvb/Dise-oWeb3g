@@ -254,3 +254,16 @@ nav ul li a{
 #contenido .item .votacion .guardar_item{
 	float: right;
 }
+
+@media(min-width: 800px){ /*de 800px para arriba se aplican estos cambios*/
+	
+	.item{
+		display:inline-block;
+		vertical-align: top;
+		width:49%;
+	}
+
+	#contenido .item:nth-child(odd){ /*Si no pongo la ruta #contenido .item completa no me aplica el cambio, este seudo elemeto solo se coloco para que el margen derecho solo se aplicar a los items impares*/
+		margin-right:.2em;
+	}
+}
