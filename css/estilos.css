@@ -182,6 +182,10 @@ nav ul li a{
 	padding: .5em .5em;
 }
 
+aside{
+	display: none;
+}
+
 #contenido{
 	margin: 1em;
 }
@@ -255,6 +259,25 @@ nav ul li a{
 	float: right;
 }
 
+@media(min-width: 1000px){
+	
+	aside{
+		display: inline-block;
+		width: 20%;
+	}
+	
+	#contenido{
+		display: inline-block;
+		width: 76%;
+	}
+
+	#contenido .item .titulo_item{
+		font-size: 1em;
+		padding: 0;
+	}
+
+}
+
 @media(min-width: 800px){ /*de 800px para arriba se aplican estos cambios*/
 	
 	.item{
@@ -267,6 +290,7 @@ nav ul li a{
 		margin-right:.2em;
 	}
 }
+
 @media(max-width: 480px){ /*abjo de 468 se aplica esto*/
 	
 	#contenido .item #imagen_item img {
