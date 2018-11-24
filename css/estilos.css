@@ -130,11 +130,20 @@ header #avatar img{
 	width: 55px;
 }
 
-header #logo img{
+#logo{
 	border-right: 1px solid white;
+}
+
+header #logo img{
+	/*padding-right:.5em;*/
 	margin-right: .5em;
-	padding-right:.5em;
 	width: 52px;
+}
+
+header #logo img:hover{
+	transition: .5s;
+	transform:rotate(360deg);
+
 }
 
 nav{
@@ -170,6 +179,11 @@ nav ul #publicar a{
 	text-shadow: rgba(0,0,0,.5) 2px 2px 5px;
 }
 
+nav ul #publicar a:hover:before{
+	font-size:1.1em;
+}
+
+
 nav ul li{
 	/*border: 1px solid red;*/
 	display: inline-block;
@@ -180,6 +194,11 @@ nav ul li a{
 	color: white;
 	display: block;
 	padding: .5em .5em;
+	transition: .3s;
+}
+
+nav ul li a:hover{
+	background: black;
 }
 
 aside{
@@ -264,6 +283,9 @@ aside{
 	aside{
 		display: inline-block;
 		width: 20%;
+	}
+	video{
+		width: 100%;
 	}
 	
 	#contenido{
