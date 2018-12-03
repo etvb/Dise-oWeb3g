@@ -12,9 +12,27 @@ function mostrarFormulario(){
 	return false;
 }
 
+function agregarPost(){
+	var url = $url.val(),
+		titulo = $titulo.val(),
+		$clone = $post.clone();
+
+	$clone.find('.titulo_item a')
+		.text(titulo)
+		.attr('href',url);
+		$clone.hide();
+
+		$list.prepend($clone);
+
+		$clone.fadeIn();
+
+	return false;
+}
+
 
 
 
 
 	//eventos
-$button.click(mostrarFormulario);
+$button.on("click",mostrarFormulario);
+$form.on('submit', agregarPost);
